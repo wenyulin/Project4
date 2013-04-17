@@ -27,8 +27,8 @@ DROP TABLE IF EXISTS `dim_airplane`;
 CREATE TABLE `dim_airplane` (
   `id` int(11) NOT NULL,
   `manufacturer` text,
-  `model_size` text,
-  `model_number` int(11) DEFAULT NULL,
+  `model_number` text,
+  `model_size` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -39,6 +39,18 @@ CREATE TABLE `dim_airplane` (
 
 LOCK TABLES `dim_airplane` WRITE;
 /*!40000 ALTER TABLE `dim_airplane` DISABLE KEYS */;
+INSERT INTO `dim_airplane` VALUES(19393,"Boeing Commercial Airplanes","787",330);
+INSERT INTO `dim_airplane` VALUES(19690,"Boeing Commercial Airplanes","747",580);
+INSERT INTO `dim_airplane` VALUES(19790,"Boeing Commercial Airplanes","777",550);
+INSERT INTO `dim_airplane` VALUES(19805,"Boeing Commercial Airplanes","777",550);
+INSERT INTO `dim_airplane` VALUES(19930,"Boeing Commercial Airplanes","737",215);
+INSERT INTO `dim_airplane` VALUES(19977,"Boeing Commercial Airplanes","767",375);
+INSERT INTO `dim_airplane` VALUES(20304,"Boeing Commercial Airplanes","747",580);
+INSERT INTO `dim_airplane` VALUES(20355,"Airbus","A380",555);
+INSERT INTO `dim_airplane` VALUES(20366,"Airbus","A350",350);
+INSERT INTO `dim_airplane` VALUES(20378,"Airbus","A330",295);
+INSERT INTO `dim_airplane` VALUES(20398,"Airbus","A340",380);
+INSERT INTO `dim_airplane` VALUES(20409,"Airbus","A380",555);
 /*!40000 ALTER TABLE `dim_airplane` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
