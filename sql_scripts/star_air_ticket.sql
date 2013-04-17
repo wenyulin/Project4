@@ -26,7 +26,7 @@ DROP TABLE IF EXISTS `air_ticket`;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `air_ticket` (
   `id` int(11) NOT NULL,
-  `price` int(11) DEFAULT NULL,
+  `avg_price` int(11) DEFAULT NULL,
   `profit` int(11) DEFAULT NULL,
   `dim_airport_id` int(11) NOT NULL,
   `dim_time_id` int(11) NOT NULL,
