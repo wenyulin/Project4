@@ -39,18 +39,7 @@ CREATE TABLE `dim_airplane` (
 
 LOCK TABLES `dim_airplane` WRITE;
 /*!40000 ALTER TABLE `dim_airplane` DISABLE KEYS */;
-INSERT INTO `dim_airplane` VALUES(19393,"Boeing Commercial Airplanes","787",330);
-INSERT INTO `dim_airplane` VALUES(19690,"Boeing Commercial Airplanes","747",580);
-INSERT INTO `dim_airplane` VALUES(19790,"Boeing Commercial Airplanes","777",550);
-INSERT INTO `dim_airplane` VALUES(19805,"Boeing Commercial Airplanes","777",550);
-INSERT INTO `dim_airplane` VALUES(19930,"Boeing Commercial Airplanes","737",215);
-INSERT INTO `dim_airplane` VALUES(19977,"Boeing Commercial Airplanes","767",375);
-INSERT INTO `dim_airplane` VALUES(20304,"Boeing Commercial Airplanes","747",580);
-INSERT INTO `dim_airplane` VALUES(20355,"Airbus","A380",555);
-INSERT INTO `dim_airplane` VALUES(20366,"Airbus","A350",350);
-INSERT INTO `dim_airplane` VALUES(20378,"Airbus","A330",295);
-INSERT INTO `dim_airplane` VALUES(20398,"Airbus","A340",380);
-INSERT INTO `dim_airplane` VALUES(20409,"Airbus","A380",555);
+INSERT INTO `dim_airplane` VALUES (19393,'Boeing Commercial Airplanes','787',330),(19690,'Boeing Commercial Airplanes','747',580),(19790,'Boeing Commercial Airplanes','777',550),(19805,'Boeing Commercial Airplanes','777',550),(19930,'Boeing Commercial Airplanes','737',215),(19977,'Boeing Commercial Airplanes','767',375),(20304,'Boeing Commercial Airplanes','747',580),(20355,'Airbus','A380',555),(20366,'Airbus','A350',350),(20378,'Airbus','A330',295),(20398,'Airbus','A340',380),(20409,'Airbus','A380',555);
 /*!40000 ALTER TABLE `dim_airplane` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -63,4 +52,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2013-04-16 22:27:01
+-- Dump completed on 2013-04-17 15:40:22
